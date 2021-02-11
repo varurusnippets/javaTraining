@@ -198,6 +198,139 @@ Example
  10 << 2 --> 10 * 2 ^2 --> 10 *4 =40
  
  
+ Relational
+ =========
+ 
+ >, <, >=, <=, ==, !=
+ 
+ Bitwise
+ ==========
+ 
+ &, |, ^
+  4& 2
+  0100
+ &0010
+  =====
+  0000
+  =====
+  
+ Logical 
+ ======
+ 
+ &&, ||
+ 
+ 
+ true && true ==> true
+ false && true --> false
+ 
+ true || false --> true
+ 
+ Ternary
+ ===============
+ condition ? true statment : false statment
+ j %2 ==1 ? "Odd Number" : "Even Number";
+ 
+ 
+ Assigment
+ ================
+ 
+ =, // i=10;
+ +=,  -=, *=, /=, %=, &=, ^=, |=, <<=, >>=,>>>=
+ 
+ a +=5;
+ 
+ a= a+5;
+ 
+ 
+Flow control
+
+====================
+
+if,else, if
+
+if( cond1){
+	
+	if(cond3){
+	
+	}
+
+
+}else if( cond2){
+
+}else{
+
+}
+
+Loops 
+
+======
+
+ For, While, do while, for each
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
