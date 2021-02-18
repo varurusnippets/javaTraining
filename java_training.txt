@@ -268,6 +268,211 @@ Loops
  For, While, do while, for each
  
  
+ 100 java classes
+	10 -- functionality
+	10- facing ui
+	10- database connected
+	10 -business logic
+	 |
+	 |
+	 10- util
+package a.b.c;
+
+package will be the first line
+
+import statements
+
+class FileName{
+
+
+
+}
+ 
+ 
+ 
+ // static method can only consume static variables.
+ 
+ // non static can use static variables
+ 
+ OOPs (Object Oriented Progamming)
+ ============
+ 
+ class
+ object
+ Encapsulation
+ Inheritance
+ Polymorphism
+ Abstraction
+ 
+ 
+ 
+ blue print of class -- object
+ 
+ new Student();
+ 
+ 
+ student --> sno
+ 
+ class Parent1{
+ 
+	String surname;
+	
+	public String getFamilyHirearchy(){
+	
+	
+	}
+	
+	
+ }
+ 
+ class Parent2{
+	String surname;
+	
+	public String getFamilyHirearchy(){
+	
+	
+	}
+	
+ 
+ }
+ 
+ class Child extends Parent1{
+ 
+	String fname;
+	
+ 
+ }
+ 
+ 
+ 
+ Factory 
+ ========
+ 
+ Shape {
+  
+  draw()
+ 
+ 
+ }
+ 
+ 
+ circle extends Shape{
+	draw(){
+	
+	}
+ }
+ 
+ 
+ square extends Shape{
+	draw(){
+	}
+ 
+ }
+ 
+ 
+ 
+drawMe(new Circle);
+drawMe(new Square);
+ 
+ 
+ public void drawMe(Shape s){
+	s.draw();
+ 
+ }
+ 
+ Parent c = new Child();
+ c.getSurName();
+ 
+ Shape s = new Circle();
+ s.draw(); // Circle draw
+ 
+ Shape s = new Square();
+ s.draw(); // square draw
+ 
+ 
+ 
+ 
+ 
+Method Overloading
+================
+ 
+ same class
+  same method name
+  different parameter data types
+  different number of parameters
+ 
+ 
+ 
+ method overriding 
+ ===================
+ inheritance
+	parent class and child class should have same signature ( return type, access modifier, method name and parameters)
+	
+ Constructor
+ ====================
+ 
+ 
+ creating an object of child == default constructor --> parent default constructor --> child default constructor
+ 
+ creating an object of child with parameter --> parent default constructore --> child parameter constructor
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
