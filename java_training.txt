@@ -418,6 +418,154 @@ Method Overloading
  
  
  
+ Cohesion and coupling
+ =======
+ 
+ Low --> behavior method  and High
+ 
+ 
+ 
+ 
+ 
+ tight coupled
+ 
+ High cohesion and loosely coupled
+ 
+ 
+ interface
+ ===================
+ 
+ does not have method implementation
+ static final
+ 
+ calculator -- add, sub,mul,div
+ 
+ 
+ abstract class
+ ================
+ 
+ 5 methods
+ 
+ 4 methods are common, 1 method is changing (abstract)
+ 
+ 
+ 
+ Arrays
+ =================
+ 
+ int i ; // single integer value
+ 
+ multiple interger 
+ 
+ array
+ int[] iArr; // multiple integer value
+ 
+ String[]
+ Float[]
+ 
+ |
+ |
+ |
+ 
+ int[] arr = new int[5]; // create an entity, which can store 5 integers
+ 
+ arr[0] = 1 // int default = 0, garbage
+ 
+ arr[1] = 4
+ 
+ 
+ 
+ 
+ String[] stArray = new String[2];
+ 
+ stArray[0] = null;
+ 
+ 
+ 
+ multi Dimension Arrays
+ 
+ int[][] arr = new int[2][3]; m*n -> elements
+ 
+ arr[0][0], arr[0][1], arr[0][2]
+ arr[1][0], arr[1][1], arr[1][2]
+ 
+ 
+ chess[8][8]
+ 
+ 
+ rubikcube [][][]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
