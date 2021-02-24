@@ -496,6 +496,85 @@ Method Overloading
  rubikcube [][][]
  
  
+ ================
+ 
+ final 
+ 
+ 
+	variable - change value
+	class = extend class
+
+static
+
+
+recursive method 
+
+	method  in that method implementation, i will call same method
+	
+	
+	draw(){
+	
+	
+		draw();
+	
+	}
+	
+	jvm -> store the current data points in to stack and call the method.
+	
+	draw -->  stack --> draw --> stack ------->   ... --> stack is full
+	
+	stack overflow
+	
+	exit condition 
+	
+	4! = 4*3*2*1
+	5!= 5*4*3*2*1
+	
+	
+	
+	nested class
+	
+	class {
+		class{
+		}
+		
+		
+	}
+	
+
+
+		inner class
+		static inner class
+		non static inner class
+		anonymous innner class
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+ 
  
  
  
